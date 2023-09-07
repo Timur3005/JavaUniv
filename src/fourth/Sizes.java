@@ -20,7 +20,6 @@ public enum Sizes {
     private String getDescription(){
         return "Взрослый размер";
     }
-    //
 
 
     public int getEuroSize() {
