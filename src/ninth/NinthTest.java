@@ -1,5 +1,7 @@
 package ninth;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Random;
 
 public class NinthTest {
@@ -19,12 +21,21 @@ public class NinthTest {
     }
 
     public static void main(String[] args) {
+
+        //9.1
         Random random = new Random();
         Student[] students = new Student[4];
         for (int i = 0; i<4;i++){
-            students[i] = new Student(random.nextInt(), Integer.toString(i), Integer.toString(i));
+            students[i] = new Student(random.nextInt(), Integer.toString(i), Integer.toString(i), random.nextInt(1,10));
         }
         insertionSort(students);
+        for (int i=0;i<4;i++){
+            System.out.println(students[i]);
+        }
+
+        //9.2
+        Arrays.sort(students, new SortingStudentsByGPA());
+
         for (int i=0;i<4;i++){
             System.out.println(students[i]);
         }
