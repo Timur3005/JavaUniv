@@ -24,6 +24,7 @@ public class Eleven {
                 }
             }
         }
+        System.out.println("количечтво единиц");
         System.out.println(count);
     }
 
