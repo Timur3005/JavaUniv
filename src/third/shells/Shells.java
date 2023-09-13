@@ -2,6 +2,8 @@ package third.shells;
 
 public class Shells {
 
+    //1 task
+
     public static void main(String[] args) {
         Double d = Double.valueOf("123.4");
         System.out.println("№1: "+d);
