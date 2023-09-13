@@ -1,7 +1,5 @@
 package second.three;
 
-import second.three.Circle;
-
 import java.util.Scanner;
 
 public class CircleTester {
