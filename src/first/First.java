@@ -53,4 +53,16 @@ public class First {
         System.out.println("max = " + Arrays.stream(mas).max());
         System.out.println("min = " + Arrays.stream(mas).min());
     }
+
+    protected void fifth(String[] args){
+        if (args.length == 0) {
+            System.out.println("Нет аргументов командной строки.");
+        }
+        else {
+            System.out.println("Аргументы командной строки:");
+            for (int i = 0; i < args.length; i++) {
+                System.out.println("Аргумент " + (i + 1) + ": " + args[i]);
+            }
+        }
+    }
 }
