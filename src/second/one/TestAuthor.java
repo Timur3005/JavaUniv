@@ -1,4 +1,6 @@
-package second;
+package second.one;
+
+import second.one.Author;
 
 public class TestAuthor {
 

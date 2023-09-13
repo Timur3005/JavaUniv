@@ -1,4 +1,4 @@
-package second;
+package second.two;
 
 public class Ball {
 

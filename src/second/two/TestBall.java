@@ -1,4 +1,6 @@
-package second;
+package second.two;
+
+import second.two.Ball;
 
 public class TestBall {
 
