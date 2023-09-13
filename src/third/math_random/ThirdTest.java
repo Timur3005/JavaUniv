@@ -1,4 +1,4 @@
-package third;
+package third.math_random;
 
 import java.util.Scanner;
 
