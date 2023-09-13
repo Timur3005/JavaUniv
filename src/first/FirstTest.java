@@ -7,8 +7,8 @@ public class FirstTest {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        First first = new First(scanner);
-        first.first();
+        FirstThird firstThird = new FirstThird(scanner);
+        firstThird.first();
 
     }
 }

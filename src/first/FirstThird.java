@@ -2,11 +2,11 @@ package first;
 
 import java.util.Scanner;
 
-public class First {
+public class FirstThird {
 
     private final Scanner scanner;
 
-    public First(Scanner scanner) {
+    public FirstThird(Scanner scanner) {
         this.scanner = scanner;
     }
 
