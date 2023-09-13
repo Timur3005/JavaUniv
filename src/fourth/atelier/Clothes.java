@@ -1,4 +1,4 @@
-package fourth;
+package fourth.atelier;
 
 public abstract class Clothes {
     private Sizes size;

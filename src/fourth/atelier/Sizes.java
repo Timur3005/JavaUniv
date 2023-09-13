@@ -1,4 +1,4 @@
-package fourth;
+package fourth.atelier;
 
 public enum Sizes {
     XXS(32) {
