@@ -1,4 +1,4 @@
-package fourth;
+package fourth.atelier;
 
 public class TestFourth {
 
