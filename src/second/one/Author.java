@@ -1,4 +1,4 @@
-package second;
+package second.one;
 
 public class Author {
 
