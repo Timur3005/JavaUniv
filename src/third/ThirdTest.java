@@ -8,6 +8,6 @@ public class ThirdTest {
 
         Scanner sc = new Scanner(System.in);
         ThirdRandom thirdRandom = new ThirdRandom(sc);
-        thirdRandom.third();
+        thirdRandom.first();
     }
 }
