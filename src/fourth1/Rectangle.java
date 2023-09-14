@@ -2,32 +2,29 @@ package fourth1;
 
 import java.util.Scanner;
 
-public class Rectangle extends Shape{
+public class Rectangle implements Shape{
     private double a;
     private double b;
-    private double c;
 
 
     public Rectangle(){
-        System.out.println("введите стороны треугольника");
+        System.out.println("введите стороны прямоугольника");
         Scanner scanner = new Scanner(System.in);
         a = scanner.nextDouble();
         b = scanner.nextDouble();
-        c = scanner.nextDouble();
     }
     @Override
-    String getType() {
-        return "Circle";
-    }
-
-    @Override
-    double getArea() {
-        double p = (a+b+c)/2;
-        return Math.sqrt(p*(p-a)*(p-b)*(p-c));
+    public String getType() {
+        return "Rectangle";
     }
 
     @Override
-    double getPerimeter() {
-        return a+b+c;
+    public double getArea() {
+        return a*b;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return (a+b)*2;
     }
 }

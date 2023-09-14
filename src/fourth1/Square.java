@@ -2,7 +2,7 @@ package fourth1;
 
 import java.util.Scanner;
 
-public class Square extends Shape{
+public class Square implements Shape{
 
     private double a;
 
@@ -13,17 +13,17 @@ public class Square extends Shape{
     }
 
     @Override
-    String getType() {
+    public String getType() {
         return "Square";
     }
 
     @Override
-    double getArea() {
+    public double getArea() {
         return a*a;
     }
 
     @Override
-    double getPerimeter() {
+    public double getPerimeter() {
         return 4*a;
     }
 }

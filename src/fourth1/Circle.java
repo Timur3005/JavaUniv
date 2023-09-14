@@ -2,7 +2,7 @@ package fourth1;
 
 import java.util.Scanner;
 
-public class Circle extends Shape{
+public class Circle implements Shape{
 
     private double a;
 
@@ -14,17 +14,17 @@ public class Circle extends Shape{
         a = scanner.nextDouble();
     }
     @Override
-    String getType() {
+    public String getType() {
         return "Circle";
     }
 
     @Override
-    double getArea() {
+    public double getArea() {
         return Math.PI*a*a;
     }
 
     @Override
-    double getPerimeter() {
+    public double getPerimeter() {
         return 2*Math.PI*a;
     }
 }
