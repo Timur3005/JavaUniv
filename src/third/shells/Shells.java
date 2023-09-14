@@ -16,7 +16,7 @@ public class Shells {
         System.out.println("long " + d.longValue());
         System.out.println("short " + d.shortValue());
 
-        System.out.println("Double" + d);
+        System.out.println("Double " + d);
 
         String s = Double.toString(d);
         System.out.println("String "+ s);

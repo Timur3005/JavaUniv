@@ -14,8 +14,19 @@ public class ThirdRandom {
 
     protected void first(){
         System.out.println("введите количество элементов в массиве");
-        int n = sc.nextInt();
-        double[] random_mas = new double[n];
+        double[] random_mas;
+        int n;
+        while (true){
+            try {
+                n = sc.nextInt();
+                random_mas = new double[n];
+                break;
+            }
+            catch (Exception e) {
+                System.out.println("введите размер массива заново");
+                sc.nextLine();
+            }
+        }
         for (int i=0; i<n; i++){
             random_mas[i]=Math.random();
         }

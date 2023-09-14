@@ -1,6 +1,6 @@
 package fourth1;
 
-public abstract class Shape {
+interface Shape {
 
     abstract String getType();
     abstract double getArea();

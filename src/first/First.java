@@ -13,15 +13,27 @@ public class First {
 
     protected void third(){
 
+        int length;
+        int[] mas;
+
         System.out.println("введите размер массива");
-        int length = scanner.nextInt();
 
-        int[] mas = new int[length];
+        while (true){
+            try {
+                length = scanner.nextInt();
+                mas = new int[length];
+                break;
+            }
+            catch (Exception e) {
+                System.out.println("введите размер массива заново");
+                scanner.nextLine();
+            }
 
+        }
         int sum = 0;
 
         for (int i=0; i<length; i++){
-            System.out.println("введите элемент массива");
+            System.out.println("введите элемент массива - натуральное число");
             int x = scanner.nextInt();
             mas[i] = x;
             sum += x;
@@ -32,19 +44,32 @@ public class First {
 
     protected void fourth(){
 
+        int length;
+        int[] mas;
+
         System.out.println("введите размер массива");
-        int length = scanner.nextInt();
-        int[] mas = new int[length];
+
+        while (true){
+            try {
+                length = scanner.nextInt();
+                mas = new int[length];
+                break;
+            }
+            catch (Exception e) {
+                System.out.println("введите размер массива заново");
+                scanner.nextLine();
+            }
+        }
 
         for (int i=0; i<length; i++){
-            System.out.println("введите элемент массива");
+            System.out.println("введите элемент массива - натуральное число");
             int x = scanner.nextInt();
             mas[i] = x;
         }
 
         int sum = 0;
 
-        while ( length>0){
+        while (length>0){
             length--;
             sum+=mas[length];
         }
