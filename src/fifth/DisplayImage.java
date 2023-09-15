@@ -9,26 +9,18 @@ import java.io.IOException;
 public class DisplayImage extends JFrame {
 
     public DisplayImage(String imagePath) {
-        // Устанавливаем заголовок окна
         setTitle("Отображение изображения");
-
-        // Загружаем изображение
         BufferedImage image = loadImage(imagePath);
 
-        // Создаем JLabel для отображения изображения
         assert image != null;
         JLabel label = new JLabel(new ImageIcon(image));
 
-        // Устанавливаем размеры окна
         setSize(image.getWidth(), image.getHeight());
 
-        // Добавляем JLabel на окно
         add(label);
 
-        // Устанавливаем операцию закрытия окна по умолчанию
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Устанавливаем видимость окна
         setVisible(true);
     }
 
