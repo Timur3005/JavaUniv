@@ -1,4 +1,4 @@
-package ninth;
+package ninth.first_and_second;
 
 import java.util.Comparator;
 import java.util.function.Function;

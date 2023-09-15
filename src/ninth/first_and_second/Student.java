@@ -1,4 +1,4 @@
-package ninth;
+package ninth.first_and_second;
 
 public class Student  implements Comparable<Student>{
 
