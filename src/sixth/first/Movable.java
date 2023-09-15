@@ -1,4 +1,4 @@
-package sixth;
+package sixth.first;
 
 public interface Movable {
     void moveUp();

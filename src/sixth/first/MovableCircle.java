@@ -1,4 +1,4 @@
-package sixth;
+package sixth.first;
 
 public class MovableCircle extends MovablePoint implements Movable{
 

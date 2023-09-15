@@ -1,4 +1,4 @@
-package sixth;
+package sixth.first;
 
 import java.util.Scanner;
 

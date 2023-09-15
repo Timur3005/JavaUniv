@@ -1,4 +1,4 @@
-package sixth;
+package sixth.first;
 
 public class MovablePoint implements Movable{
 
