@@ -1,4 +1,4 @@
-package seventh;
+package seventh.math;
 
 import java.util.Scanner;
 
